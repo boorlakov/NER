@@ -1,0 +1,7 @@
+pandas==1.4.2
+matplotlib==3.5.2
+numpy==1.22.4
+sentencepiece==0.1.96
+transformers==4.17.0
+datasets==2.2.2
+seqeval==1.2.2
