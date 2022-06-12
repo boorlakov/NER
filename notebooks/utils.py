@@ -20,6 +20,8 @@ def show_classes_distribution(
     ax.set_xticks(x)
     ax.set_xticklabels(dict.keys())
     plt.title(plt_name)
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
+             rotation_mode="anchor")
     plt.show()
 
 
